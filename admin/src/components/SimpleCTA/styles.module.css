@@ -1,0 +1,98 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    min-width: 100%;
+    overflow-y: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    /* min-width: 760px; */
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    border: 0;
+    min-width: 760px;
+    color: #02132C;
+}
+
+.title:focus{
+    outline: 1px dashed #000;
+}
+
+.title:hover{
+    outline: 1px dashed #676767;
+}
+
+.text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    border: 0;
+    min-width: 760px;
+    color: #121212;
+    height: 100%;
+    resize: none;
+}
+
+.text:focus{
+    outline: 1px dashed #000;
+}
+
+.text:hover{
+    outline: 1px dashed #676767;
+}
+
+.add{
+    border-radius: 30px;
+    padding: 5px;
+    border: 2px dashed #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.buttonHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.primaryButton{
+    background-color: #02132C;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    align-items: center;
+}
+
+.secondaryButton{
+    background-color: transparent;
+    color: #02132C;
+    border-radius: 100px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    align-items: center;
+    border: 1px solid #02132C;
+}

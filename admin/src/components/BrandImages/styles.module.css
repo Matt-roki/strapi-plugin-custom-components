@@ -1,0 +1,58 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    min-width: 100%;
+    overflow-y: hidden;
+    /* flex-wrap: nowrap; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container > div {
+    flex-shrink: 0;
+    border: 2px dashed #000;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+}
+.box2{
+    width: 276px;
+    height: 184px;
+}
+
+.box3{
+    width: 292px;
+    height: 150px;
+}
+
+.box4{
+    width: 150px;
+    height: 118px;
+}
+
+.box5{
+    width: 292px;
+    height: 78px;
+}
+
+.box6{
+    width: 276px;
+    height: 276px;
+}
+

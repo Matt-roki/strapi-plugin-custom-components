@@ -1,0 +1,42 @@
+{
+  "name": "strapi-plugin-custom-components",
+  "version": "0.0.1",
+  "description": "Add custom components to the content manager",
+  "strapi": {
+    "name": "custom-components",
+    "description": "Add custom components to the content manager",
+    "kind": "plugin",
+    "displayName": "Custom components"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "Matt Westlake"
+  },
+  "maintainers": [
+    {
+      "name": "Matt Westlake"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
