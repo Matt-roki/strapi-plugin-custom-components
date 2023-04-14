@@ -1,3 +1,3 @@
-# Strapi plugin button-preview
+# Strapi plugin custom components 
 
-A quick description of button-preview.
+A quick description of custom components.
